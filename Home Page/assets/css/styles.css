@@ -106,3 +106,29 @@ a.nav-item:hover {
 	}
 
 }
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	/*background-color:*/
+  }
+  ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: gray;
+	content: "->\00a0";
+  }
+  ul.breadcrumb li a {
+	color: aqua;
+	text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+	color: white;
+	text-decoration: underline;
+  }
+		  a:hover {
+	  color: white;
+		  transition: color 1s ease-in;
+	  }
