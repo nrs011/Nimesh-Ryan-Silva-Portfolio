@@ -1,0 +1,22 @@
+{
+  "name": "nimesh-ryan-silva-portfolio",
+  "version": "1.0.0",
+  "description": "> This showcases my web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimeshsilva1997/Nimesh-Ryan-Silva-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimeshsilva1997/Nimesh-Ryan-Silva-Portfolio/issues"
+  },
+  "homepage": "https://github.com/nimeshsilva1997/Nimesh-Ryan-Silva-Portfolio#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.4.0"
+  }
+}
