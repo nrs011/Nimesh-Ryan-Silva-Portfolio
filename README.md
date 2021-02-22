@@ -16,4 +16,4 @@ Studorlio is a template for your own personal site. You can have yours running o
 
 ## License
 
-Code released under the [MIT](https://github.com/helfi92/studorlio/blob/master/LICENSE) license
+Code released under the [MIT](https://github.com/nimeshsilva1997/Nimesh-Ryan-Silva-Portfolio/blob/master/LICENSE) license
