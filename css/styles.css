@@ -131,7 +131,7 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 a:hover {
-  color: white;
+  color: green;
   transition: color 1s ease-in;
 }
 .dropbtn {
