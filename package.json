@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nimeshsilva1997/Nimesh-Ryan-Silva-Portfolio#readme",
   "dependencies": {
-    "bootstrap-icons": "^1.4.0"
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.4.0",
+    "bulma": "^0.9.2"
   }
 }
