@@ -6,7 +6,8 @@
 
 ## Website
 
-[https://nimeshsilvaportfolio.netlify.app/](https://nimeshsilvaportfolio.netlify.app/){:target="\_blank"}
+[https://nimeshsilvaportfolio.netlify.app/](https://nimeshsilvaportfolio.netlify.app/)
+[Example](https://example.com){target=\_blank}
 
 ## License
 
