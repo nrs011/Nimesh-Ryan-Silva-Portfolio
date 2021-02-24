@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> This showcases my web portfolio. HTML, CSS, Sass, Bootstrap, Bulma, and JavaScript were used.
+> This showcases my web portfolio. HTML, CSS, Sass/SCSS, Bootstrap, Bulma, and JavaScript were used.
 
 ## Website
 
