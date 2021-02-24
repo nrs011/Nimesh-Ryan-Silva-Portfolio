@@ -11,11 +11,6 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
     <!-- bulma -->
     <link
       rel="stylesheet"
@@ -33,18 +28,16 @@
     <meta name="author" content="Nimesh Ryan Silva" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- navbar -->
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd"">
       <div class="nav-left">
         <a
           target="_blank"
-          style="color: aqua"
           href="https://github.com/nimeshsilva1997"
           class="nav-item"
-          ><img src="img/GitHub-Mark-Light-120px-plus.png"
+          ><img src="img/GitHub-Mark-120px-plus.png"
         /></a>
         <a
           target="_blank"
-          style="color: aqua"
           href="https://www.linkedin.com/in/nimesh-silva/"
           class="nav-item"
           ><img src="img/LI-In-Bug.png"
@@ -71,21 +64,18 @@
           </div>
         </div>
         <a
-          style="color: aqua"
           target="_blank"
           class="nav-item"
           href="index.html"
           >Home</a
         >
         <a
-          style="color: aqua"
           target="_blank"
           class="nav-item"
           href="cybersecurityrssfeed.html"
           >Cybersecurity RSS Feed</a
         >
         <a
-          style="color: aqua"
           target="_blank"
           class="nav-item"
           href="https://drive.google.com/file/d/1TFoKFkLJpFUVx-8SCFD7JqZgarB7lrod/view?usp=sharing"
@@ -96,33 +86,15 @@
   </head>
   <body>
     <!-- cybersecurity rss feed -->
-    <section id="about">
-      <div class="container has-text-centered">
-        <h3 class="title is-3"><center>Cybersecurity RSS Feed</center></h3>
-        <script src="//rss.bloople.net/?url=https%3A%2F%2Ffeeds.feedburner.com%2FTheHackersNews%3Fformat%3Dxml&limit=3&showicon=true&showempty=true&striphtml=true&forceutf8=true&fixbugs=true&type=js"></script>
-      </div>
-    </section>
-    <!-- scripts -->
-    <script src="js/scrollFunction.js"></script>
-    <script src="js/topFunction.js"></script>
-    <script src="js/controller.js"></script>
-    <!-- footer -->
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted"
-          >&copy; 2018
-          <script>
-            new Date().getFullYear() > 2012 &&
-              document.write("- " + new Date().getFullYear());
-          </script>
-          , Nimesh Ryan Silva Portfolio. All Rights Reserved.
-          <a
-            target="_blank"
-            href="https://github.com/nimeshsilva1997/Nimesh-Ryan-Silva-Portfolio/blob/master/LICENSE"
-            >MIT License</a
-          >
-        </span>
-      </div>
-    </footer>
+    <div class="container has-text-centered" style="padding-top: 3rem;
+    padding-bottom: 3rem;">
+      <h3 class="title is-3"><center>Cybersecurity RSS Feed</center></h3>
+      <script src="//rss.bloople.net/?url=https%3A%2F%2Ffeeds.feedburner.com%2FTheHackersNews%3Fformat%3Dxml&limit=3&showicon=true&showempty=true&striphtml=true&forceutf8=true&fixbugs=true&type=js"></script>
+    </div>
+  </section>
+  <!-- scripts -->
+  <script src="js/scrollFunction.js"></script>
+  <script src="js/topFunction.js"></script>
+  <script src="js/controller.js"></script>  
   </body>
 </html>
