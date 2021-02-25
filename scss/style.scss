@@ -1,0 +1,71 @@
+/** @format */
+
+/*@import "../node_modules/bootstrap/scss/bootstrap.scss";*/
+
+html,
+body {
+  font-size: 16px;
+  color: #dfdfdf;
+  background: gray;
+}
+
+a {
+  color: black;
+  font-style: italic;
+
+  &:hover {
+    color: green;
+    -webkit-transition: color 1s ease-in;
+    transition: color 0.2s ease-in;
+  }
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+}
