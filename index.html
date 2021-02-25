@@ -4,6 +4,8 @@
 <html>
   <head>
     <title>Nimesh Ryan Silva Portfolio</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <!-- bootstrap -->
     <link
       rel="stylesheet"
@@ -27,67 +29,20 @@
     />
     <meta name="author" content="Nimesh Ryan Silva" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- navbar -->
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd">
-      <div class="nav-left">
-        <a
-          target="_blank"
-          href="https://github.com/nimeshsilva1997"
-          class="nav-item"
-          ><img src="img/GitHub-Mark-120px-plus.png"
-        /></a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/nimesh-silva/"
-          class="nav-item"
-          ><img src="img/LI-In-Bug.png"
-        /></a>
-      </div>
-      <div class="nav-right">
-        <!-- dropdown -->
-        <div class="dropdown">
-          <button class="dropbtn">Projects</button>
-          <div class="dropdown-content">
-            <a target="_blank" href="https://personal.psu.edu/nqs5389/"
-              >Penn State Personal Webpage</a
-            >
-            <a
-              target="_blank"
-              href="https://drive.google.com/drive/folders/1TvOC5jt4MpPxI9x78UzOWmSSQeFlsroR?usp=sharing"
-              >Cybersecurity Labs</a
-            >
-            <a
-              target="_blank"
-              href="https://www.researchgate.net/profile/Nimesh_Silva2"
-              >Cybersecurity Research</a
-            >
-          </div>
-        </div>
-        <a
-          target="_blank"
-          class="nav-item"
-          href="index.html"
-          >Home</a
-        >
-        <a
-          target="_blank"
-          class="nav-item"
-          href="cybersecurityrssfeed.html"
-          >Cybersecurity RSS Feed</a
-        >
-        <a
-          target="_blank"
-          class="nav-item"
-          href="https://drive.google.com/file/d/1TFoKFkLJpFUVx-8SCFD7JqZgarB7lrod/view?usp=sharing"
-          >See Resume</a
-        >
-      </div>
-    </nav>
   </head>
   <body>
+    <!-- navbar -->
+    <div id="nav-placeholder">
+
+    </div>
+    <script>
+      $(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+    </script>
+    <!-- end of navbar-->
     <!-- about me -->
-    <div class="container has-text-centered" style="padding-top: 3rem;
-  padding-bottom: 3rem;">
+    <div class="container has-text-centered" style="padding-top: 3rem; padding-bottom: 3rem;">
       <h3 class="title is-3"><center>My Portfolio Page</center></h3>
       <p>
         <a
