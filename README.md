@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> This showcases my web portfolio. HTML, CSS, jQuery, Sass/SCSS, Bootstrap, Bulma, and JavaScript were used.
+> This showcases my web portfolio. HTML, CSS, JavaScript, jQuery, Sass/SCSS, Bootstrap, and Bulma were used.
 
 # Compile SCSS to CSS by NPM
 
