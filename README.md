@@ -14,7 +14,7 @@
 
 ## Website
 
-[https://nimeshsilvaportfolio.netlify.app/](https://nimeshsilvaportfolio.netlify.app/)
+[https://nrs.netlify.app/]https://nrs.netlify.app/)
 
 ## License
 
