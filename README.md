@@ -14,7 +14,7 @@
 
 ## Website
 
-[https://nrs.netlify.app/]https://nrs.netlify.app/)
+[https://nrs.netlify.app/](https://nrs.netlify.app/)
 
 ## License
 
